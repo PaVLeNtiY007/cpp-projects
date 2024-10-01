@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d8fe8e09-e517-4cbd-b49b-43a90b3b4aab}</ProjectGuid>
-    <RootNamespace>quadro</RootNamespace>
+    <ProjectGuid>{32a9569e-142e-4ddb-9eb0-0cac73db8044}</ProjectGuid>
+    <RootNamespace>cinco</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>cuadro</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,19 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Bladed_Weapon.cpp" />
-    <ClCompile Include="Character.cpp" />
-    <ClCompile Include="Explosive.cpp" />
-    <ClCompile Include="Pistol.cpp" />
-    <ClCompile Include="quadro.cpp" />
-    <ClCompile Include="Weapon.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Bladed_Weapon.h" />
-    <ClInclude Include="Character.h" />
-    <ClInclude Include="Explosive.h" />
-    <ClInclude Include="Pistol.h" />
-    <ClInclude Include="Weapon.h" />
+    <ClCompile Include="cinco.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
